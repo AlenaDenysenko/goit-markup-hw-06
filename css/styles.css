@@ -100,11 +100,6 @@ img {
     display: none;
   }
 }
-@media only screen and (min-width: 1158px) {
-  .list-header {
-    margin-left: 76px;
-  }
-}
 
 .list li:last-child {
   margin-right: 0;
@@ -120,8 +115,6 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
-  padding-top: 17px;
-  padding-bottom: 17px;
 }
 
 @media only screen and (max-width: 767.8px) {
@@ -411,13 +404,17 @@ img {
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .advantages-heading {
+    text-align: left;
+  }
+}
 @media only screen and (min-width: 1158px) {
   .advantages-heading {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    text-align: left;
   }
 }
 .paragraph {
@@ -441,11 +438,6 @@ img {
   padding: 96px 0 96px 0;
 }
 
-@media only screen and (min-width: 768px) {
-  .team-section {
-    padding: 96px 0 32px 0;
-  }
-}
 @media only screen and (min-width: 1158px) {
   .team-section {
     padding: 120px 0;
@@ -476,16 +468,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
-  }
-  .team-item {
-    margin-left: 24px;
-    margin-bottom: 64px;
-  }
-}
-@media only screen and (min-width: 1158px) {
-  .team-item {
-    margin-left: 0px;
-    margin-bottom: 0px;
+    gap: 64px 24px;
   }
 }
 
@@ -694,6 +677,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .logo-footer {
     display: inline-block;
+    padding: 0;
     margin-bottom: 16px;
   }
 }
@@ -729,11 +713,14 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 108px;
+    gap: 72px 24px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .footer-div {
     flex-wrap: nowrap;
+    padding: 0;
   }
 }
 @media only screen and (min-width: 768px) {
